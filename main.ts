@@ -23,6 +23,8 @@ function charCount(value: string): number {
   return [...value].length;
 }
 
+// One sentence, one line: the commas carry the reply-all detail without breaking the line.
+
 function problemsWithLength(): string[] {
   const found: string[] = [];
   const n = charCount(TEXT);
